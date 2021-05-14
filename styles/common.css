@@ -1,4 +1,9 @@
-.link
-{
-    cursor: pointer;  text-decoration: none;
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-text:hover {
+  color: #155485;
+  background-color: #bcd6eb;
 }

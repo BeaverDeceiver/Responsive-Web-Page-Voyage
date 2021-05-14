@@ -1,29 +1,43 @@
-.copyright-info
-{
-    flex: 2;
+.copyright-info {
+  flex: 2;
 }
 
-.copyright-info__inner-container
-{
-    float: right;
+.copyright-info__inner-container {
+  float: right;
 }
 
-.copyright-info__text-container
-{
-    display: inline-block;
+.copyright-info__text-container {
+  display: inline-block;
 }
 
-.copyright-info__phonenumber
-{
-    font-size: 14px;  font-weight: 700;  text-align: center; letter-spacing: 1px;  color: #0d3351; 
+.copyright-info__phonenumber {
+  display: block;
+
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #0d3351;
+
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.copyright-info__support-text
-{
-    font-size: 10px;  font-weight: 400;  line-height: 48px;  text-align: center; letter-spacing: 1px;  color: #0d3351; 
+.copyright-info__support-text {
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #0d3351;
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 48px;
 }
 
-.copyright-info__copyright-text
-{
-    font-size: 14px;  font-weight: 400; letter-spacing: 1px;  color: #0d3351; 
+.copyright-info__copyright-text {
+  letter-spacing: 1px;
+
+  color: #0d3351;
+
+  font-size: 14px;
+  font-weight: 400;
 }

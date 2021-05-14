@@ -19,3 +19,14 @@
   font-weight: 400;
   font-family: "Raleway", sans-serif;
 }
+
+.support-info__phonenumber {
+  display: block;
+
+  font-weight: 700;
+}
+
+.support-info__support-text {
+  font-size: 10px;
+  line-height: 30px;
+}

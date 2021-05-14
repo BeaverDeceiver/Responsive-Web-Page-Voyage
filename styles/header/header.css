@@ -1,0 +1,12 @@
+@import url(drop-menu/drop-menu.css);
+@import url(nav-bar/navbar.css);
+
+.header {
+  background: center/100% no-repeat
+    url(../../assets/background/header_background.jpg);
+}
+
+.header__inner-container {
+  padding-top: 33px;
+  padding-bottom: 6px;
+}

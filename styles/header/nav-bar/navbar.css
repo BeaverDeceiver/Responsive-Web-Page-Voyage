@@ -1,0 +1,24 @@
+.navbar {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.navbar__list {
+  padding-bottom: 10px;
+}
+
+.navbar__item {
+  display: inline-block;
+  margin-right: 36px;
+}
+
+.navbar__icon {
+  color: #337cfd;
+}

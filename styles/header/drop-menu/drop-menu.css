@@ -1,0 +1,12 @@
+.drop-menu {
+  float: left;
+}
+
+.drop-menu__icon {
+  display: block;
+
+  width: 16px;
+  height: 22px;
+
+  background-image: url(../../../assets/menu.png);
+}

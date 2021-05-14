@@ -1,0 +1,8 @@
+# VSCode IDE files
+.vscode
+
+# mock design
+mockup
+
+# cscomb config
+.csscomb.json

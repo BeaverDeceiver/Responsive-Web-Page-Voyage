@@ -1,12 +1,33 @@
 @import url(drop-menu/drop-menu.css);
 @import url(nav-bar/navbar.css);
+/* @import url(banner/banner.css); */
 
 .header {
-  background: center/100% no-repeat
+  background: center/cover no-repeat
     url(../../assets/background/header_background.jpg);
 }
 
 .header__inner-container {
   padding-top: 33px;
   padding-bottom: 6px;
+}
+
+.header__logo {
+  display: block;
+  background: url(../../assets/logo.png);
+  height: 88px;
+  width: 88px;
+  margin: 85px auto 22px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    margin: 26px auto 19px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    margin: 143px auto 20px;
+  }
 }

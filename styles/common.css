@@ -3,7 +3,8 @@
   text-decoration: none;
 }
 
-.link-text {
+.link-text,
+.text {
   color: #0d3351;
 }
 

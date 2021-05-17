@@ -23,21 +23,3 @@
   text-align: center;
   text-transform: none;
 }
-
-.banner__button {
-  min-width: 202px;
-  height: 47px;
-  background-color: #33c7fd;
-  border: none;
-
-  margin: 0 auto;
-  color: #ffffff;
-  text-align: center;
-}
-.banner__button:hover {
-  background-color: #13b0e9;
-}
-
-.banner__button:active {
-  background-color: #64d6ff;
-}

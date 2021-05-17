@@ -21,6 +21,24 @@
   font-family: "Raleway", sans-serif;
 }
 
+.header_1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 48px;
+  color: #0d3351;
+  font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.header_2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 48px;
+  color: #00a2dd;
+  font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
+}
+
 .support-info__phonenumber {
   display: block;
 
@@ -30,4 +48,22 @@
 .support-info__support-text {
   font-size: 10px;
   line-height: 30px;
+}
+
+.button_rect {
+  min-width: 202px;
+  min-height: 47px;
+  background-color: #33c7fd;
+  border: none;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.button_rect:hover {
+  background-color: #13b0e9;
+}
+
+.button_rect:active {
+  background-color: #64d6ff;
 }

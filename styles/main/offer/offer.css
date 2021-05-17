@@ -14,6 +14,7 @@
 
 .offer-bundle {
   display: flex;
+  flex-direction: column;
 
   width: calc(50% - 30px);
 
@@ -100,41 +101,79 @@
   background: url(../../../assets/offers/tag_discount.png);
 }
 
-.offer_1 {
+.offer_1 .offer__image {
   height: 472px;
 
   background: center/cover no-repeat url(../../../assets/offers/offer_1.jpg);
 }
 
-.offer_2 {
+.offer_2 .offer__image {
   height: 113px;
 
   background: center/cover no-repeat url(../../../assets/offers/offer_2.jpg);
 }
 
-.offer_3 {
+.offer_3 .offer__image {
   height: 113px;
 
   background: center/cover no-repeat url(../../../assets/offers/offer_3.jpg);
 }
 
-.offer_4 {
+.offer_4 .offer__image {
   height: 215px;
 
   background: center/cover no-repeat url(../../../assets/offers/offer_4.jpg);
 }
 
-.offer_5 {
+.offer_5 .offer__image {
   height: 215px;
 
   background: center/cover no-repeat url(../../../assets/offers/offer_5.jpg);
 }
 /* hit 46 right 7 up */
 
-.offer-bundle {
-  display: flex;
-  flex-direction: column;
-}
 /* 192px desktop */
 /* 236px tablet & mobile */
 /*  */
+
+/* .offer */
+
+@media screen and (max-width: 1300px) {
+  .offer-bundle {
+    flex-direction: row;
+
+    flex-wrap: wrap;
+  }
+
+  .offer_1 .offer__image {
+    height: 272px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_1-tablet.jpg);
+  }
+
+  .offer_2 .offer__image {
+    height: 272px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_2-tablet.jpg);
+  }
+
+  .offer_3 .offer__image {
+    height: 272px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_3-tablet.jpg);
+  }
+
+  .offer_4 .offer__image {
+    height: 272px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_4-tablet.jpg);
+  }
+
+  .offer_5 {
+    display: none;
+  }
+}

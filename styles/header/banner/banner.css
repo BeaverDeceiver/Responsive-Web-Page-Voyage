@@ -1,38 +1,82 @@
 .banner {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 208px;
+
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  display: flex;
+
   align-items: center;
-  flex-direction: column;
-  margin-bottom: 208px;
 }
 
 .banner__text {
-  font-size: 100px;
-  letter-spacing: -2px;
-  color: #0d3351;
-  text-align: center;
-  line-height: 128px;
-
   padding-bottom: 50px;
 
+  text-align: center;
+  letter-spacing: -2px;
   text-transform: uppercase;
+
+  color: #0d3351;
+
+  font-size: 100px;
+  line-height: 128px;
 }
 
 .banner__text_first-line {
-  padding-bottom: 0px;
-  line-height: 1em;
-  font-size: 36px;
-  letter-spacing: 2px;
+  padding-bottom: 0;
+
   text-align: center;
+  letter-spacing: 2px;
   text-transform: none;
+
+  font-size: 36px;
+  line-height: 1em;
 }
 
 .banner__line {
-  display: block;
   position: absolute;
   top: 469px;
-  background: center no-repeat url(../../../assets/background/header-line.png);
-  height: 300px;
+
+  display: block;
+
   width: 62px;
+  height: 300px;
+
+  background: center no-repeat url(../../../assets/background/header-line.png);
+}
+
+@media screen and (max-width: 1300px) {
+  .banner {
+    margin-bottom: 208px;
+  }
+
+  .banner__text {
+    padding-bottom: 14px;
+
+    text-align: center;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+
+    color: #0d3351;
+
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .banner__text_first-line {
+    padding-bottom: 0;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: none;
+
+    font-size: 26px;
+    line-height: 1em;
+  }
+
+  .banner__line {
+    top: 366px;
+
+    height: 238px;
+  }
 }

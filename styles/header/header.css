@@ -5,7 +5,7 @@
 /* 647px desktop */
 .header {
   background: center/cover no-repeat
-    url(../../assets/background/header_background.jpg);
+  url(../../assets/background/header_background.jpg);
 }
 
 .header__inner-container {
@@ -14,20 +14,22 @@
 
 .header__logo {
   display: block;
-  background: url(../../assets/logo.png);
-  height: 88px;
+
   width: 88px;
+  height: 88px;
   margin: 54px auto 5px;
+
+  background: url(../../assets/logo.png);
+}
+
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    margin: 68px auto -2px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo {
     margin: 26px auto 19px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .header__logo {
-    margin: 143px auto 20px;
   }
 }

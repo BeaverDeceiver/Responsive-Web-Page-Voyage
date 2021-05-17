@@ -6,12 +6,18 @@
   display: block;
 }
 
+.offer__title {
+  padding-bottom: 8px;
+}
+
 .offer__caption {
   padding: 20px 35px 32px;
 }
 
 .offer__route {
+  padding-top: 10px;
   line-height: 24px;
+  padding-bottom: 7px;
 }
 
 .offer__text_strong {
@@ -40,6 +46,12 @@
   font-family: "Roboto Slab", sans-serif;
   font-size: 18px;
   line-height: 48px;
+}
+
+@media screen and (max-width: 1300px) {
+  .offer__price_cut {
+    padding-left: 0px;
+  }
 }
 
 .offer__tag {
@@ -176,6 +188,10 @@
 
     background: center/cover no-repeat
       url(../../../assets/offers/offer_4-tablet.jpg);
+  }
+
+  .offer:nth-child(2n) {
+    grid-column: 2;
   }
 
   .offer_5 {

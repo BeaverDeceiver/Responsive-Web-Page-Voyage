@@ -14,12 +14,25 @@
   text-align: center;
   line-height: 128px;
 
+  padding-bottom: 50px;
+
   text-transform: uppercase;
 }
 
-.banner__text::first-line {
+.banner__text_first-line {
+  padding-bottom: 0px;
+  line-height: 1em;
   font-size: 36px;
   letter-spacing: 2px;
   text-align: center;
   text-transform: none;
+}
+
+.banner__line {
+  display: block;
+  position: absolute;
+  top: 469px;
+  background: center no-repeat url(../../../assets/background/header-line.png);
+  height: 300px;
+  width: 62px;
 }

@@ -10,7 +10,6 @@
 
 .header__inner-container {
   padding-top: 33px;
-  padding-bottom: 6px;
 }
 
 .header__logo {
@@ -18,7 +17,7 @@
   background: url(../../assets/logo.png);
   height: 88px;
   width: 88px;
-  margin: 85px auto 22px;
+  margin: 54px auto 5px;
 }
 
 @media screen and (max-width: 320px) {

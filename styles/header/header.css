@@ -1,7 +1,8 @@
 @import url(drop-menu/drop-menu.css);
 @import url(nav-bar/navbar.css);
-/* @import url(banner/banner.css); */
+@import url(banner/banner.css);
 
+/* 647px desktop */
 .header {
   background: center/cover no-repeat
     url(../../assets/background/header_background.jpg);

@@ -1,0 +1,43 @@
+.banner {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 208px;
+}
+
+.banner__text {
+  font-size: 100px;
+  letter-spacing: -2px;
+  color: #0d3351;
+  text-align: center;
+  line-height: 128px;
+
+  text-transform: uppercase;
+}
+
+.banner__text::first-line {
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: none;
+}
+
+.banner__button {
+  min-width: 202px;
+  height: 47px;
+  background-color: #33c7fd;
+  border: none;
+
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+.banner__button:hover {
+  background-color: #13b0e9;
+}
+
+.banner__button:active {
+  background-color: #64d6ff;
+}

@@ -15,10 +15,14 @@
 }
 
 .catalogue {
-  display: flex;
+  display: grid;
+  display: -ms-grid;
 
   width: 100%;
+  margin-bottom: 25px;
 
-  flex-wrap: wrap;
-  justify-content: center;
+  column-gap: 30px;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  row-gap: 20px;
 }

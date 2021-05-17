@@ -1,28 +1,5 @@
-.offer,
-.offer-bundle .offer {
-  width: calc(50% - 30px);
-  margin-right: 30px;
-  margin-bottom: 20px;
-
+.offer {
   background-color: #ffffff;
-}
-
-.offer-bundle .offer,
-.offer:nth-child(2n) {
-  margin-right: 0;
-}
-
-.offer-bundle {
-  display: flex;
-  flex-direction: column;
-
-  width: calc(50% - 30px);
-
-  justify-content: space-between;
-}
-
-.offer-bundle .offer {
-  width: 100%;
 }
 
 .offer__image {
@@ -31,12 +8,6 @@
 
 .offer__caption {
   padding: 20px 35px 32px;
-}
-
-.offer__title {
-  display: flex;
-
-  align-items: center;
 }
 
 .offer__route {
@@ -138,39 +109,61 @@
 
 /* .offer */
 
-@media screen and (max-width: 1300px) {
-  .offer-bundle {
-    flex-direction: row;
-
-    flex-wrap: wrap;
+@media screen and (min-width: 1300px) {
+  .offer_1 {
+    grid-column: 1;
+    grid-row-end: 3;
+    grid-row-start: 1;
   }
 
+  .offer_2 {
+    grid-row: 1;
+  }
+
+  .offer_3 {
+    grid-row: 2;
+  }
+
+  .offer_2,
+  .offer_3,
+  .offer_5 {
+    grid-column: 2;
+  }
+
+  .offer_4 {
+    grid-column: 1;
+    grid-row-end: 5;
+    grid-row-start: 3;
+  }
+}
+
+@media screen and (max-width: 1300px) {
   .offer_1 .offer__image {
     height: 272px;
 
     background: center/cover no-repeat
-      url(../../../assets/offers/offer_1-tablet.jpg);
+    url(../../../assets/offers/offer_1-tablet.jpg);
   }
 
   .offer_2 .offer__image {
     height: 272px;
 
     background: center/cover no-repeat
-      url(../../../assets/offers/offer_2-tablet.jpg);
+    url(../../../assets/offers/offer_2-tablet.jpg);
   }
 
   .offer_3 .offer__image {
     height: 272px;
 
     background: center/cover no-repeat
-      url(../../../assets/offers/offer_3-tablet.jpg);
+    url(../../../assets/offers/offer_3-tablet.jpg);
   }
 
   .offer_4 .offer__image {
     height: 272px;
 
     background: center/cover no-repeat
-      url(../../../assets/offers/offer_4-tablet.jpg);
+    url(../../../assets/offers/offer_4-tablet.jpg);
   }
 
   .offer_5 {

@@ -1,0 +1,45 @@
+.social-links {
+  flex: 1;
+}
+
+.social-links__item {
+  display: table-cell;
+
+  padding-right: 10px;
+
+  vertical-align: middle;
+}
+
+.social-links__link {
+  display: flex;
+
+  width: 30px;
+  height: 30px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+  border-radius: 15px;
+  background: #0d3351;
+
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links__link:hover {
+  background: #155485;
+}
+
+.soclial-links__header {
+  margin-bottom: 12px;
+
+  letter-spacing: 1px;
+
+  color: #0d3351;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}

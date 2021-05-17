@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "responsive-web-page-voyage-font";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: block;
+  src: url("fonts/responsive-web-page-voyage-font.eot?1ltyss");
+  src: url("fonts/responsive-web-page-voyage-font.eot?1ltyss#iefix") format("embedded-opentype"),
+  url("fonts/responsive-web-page-voyage-font.ttf?1ltyss") format("truetype"),
+  url("fonts/responsive-web-page-voyage-font.woff?1ltyss") format("woff"),
+  url("fonts/responsive-web-page-voyage-font.svg?1ltyss#responsive-web-page-voyage-font") format("svg");
+}
+
+.icon {
+  text-transform: none;
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  font-family: "responsive-web-page-voyage-font" !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: never;
+}
+
+.icon-arrow_right:before {
+  content: "\e900";
+}
+.icon-arrow_left:before {
+  content: "\e901";
+}
+.icon-arrow_drop_up:before {
+  content: "\e902";
+}
+.icon-arrow_drop_down:before {
+  content: "\e903";
+}
+.icon-rouble:before {
+  content: "\f158";
+}
+.icon-rub:before {
+  content: "\f158";
+}
+.icon-ruble:before {
+  content: "\f158";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-vk:before {
+  content: "\f189";
+}
+.icon-odnoklassniki:before {
+  content: "\f263";
+}
+.icon-user-o:before {
+  content: "\f2c0";
+}

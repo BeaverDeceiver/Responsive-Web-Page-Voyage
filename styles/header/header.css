@@ -1,0 +1,35 @@
+@import url(drop-menu/drop-menu.css);
+@import url(nav-bar/navbar.css);
+@import url(banner/banner.css);
+
+/* 647px desktop */
+.header {
+  background: center/cover no-repeat
+  url(../../assets/background/header_background.jpg);
+}
+
+.header__inner-container {
+  padding-top: 33px;
+}
+
+.header__logo {
+  display: block;
+
+  width: 88px;
+  height: 88px;
+  margin: 54px auto 5px;
+
+  background: url(../../assets/logo.png);
+}
+
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    margin: 68px auto -2px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    margin: 26px auto 19px;
+  }
+}

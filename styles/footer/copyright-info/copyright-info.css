@@ -1,0 +1,26 @@
+.copyright-info {
+  flex: 2;
+}
+
+.copyright-info__inner-container {
+  float: right;
+}
+
+.copyright-info__text-container {
+  display: inline-block;
+}
+
+.copyright-info__phonenumber {
+  display: block;
+
+  letter-spacing: 1px;
+
+  color: #0d3351;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.copyright-info__support-text {
+  font-size: 10px;
+}

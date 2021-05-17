@@ -1,0 +1,14 @@
+@import url(secondary-navigation/secondary-navigation.css);
+@import url(social-links/social-links.css);
+@import url(copyright-info/copyright-info.css);
+
+.footer {
+  background-color: #ffffff;
+}
+
+.footer__inner-container {
+  display: flex;
+
+  padding-top: 29px;
+  padding-bottom: 41px;
+}

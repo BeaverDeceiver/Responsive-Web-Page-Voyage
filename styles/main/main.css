@@ -1,0 +1,19 @@
+@import url(catalogue/catalogue.css);
+@import url(offer/offer.css);
+
+.main__inner-container {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 118px;
+  padding-bottom: 62px;
+
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .main__inner-container {
+    padding-top: 46px;
+    padding-bottom: 62px;
+  }
+}

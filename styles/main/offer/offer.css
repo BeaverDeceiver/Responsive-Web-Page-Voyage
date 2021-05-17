@@ -1,0 +1,78 @@
+.offer {
+  /* flex: 1; */
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: calc(50% - 30px);
+  background-color: #ffffff;
+}
+/* 436 */
+
+.offer:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.offer__image {
+  display: block;
+  width: 100%;
+  /* height: calc(100% - 192px); */
+}
+
+.offer__caption {
+  padding: 20px 35px 45px;
+}
+
+.offer__title {
+  display: flex;
+  align-items: center;
+}
+
+.offer__route {
+  line-height: 24px;
+}
+
+.offer__text_strong {
+  font-weight: bold;
+}
+
+.offer__price {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 48px;
+  color: #0d3351;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+}
+
+.offer__tag {
+  display: flex;
+  position: relative;
+  top: -7px;
+  left: calc(100% - 89px - 46px);
+  width: 89px;
+  height: 101px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tag_hit {
+  background: url(../../../assets/offers/tag_hit.png);
+}
+
+.offer_1 {
+  background: center/cover no-repeat url(../../../assets/offers/offer_1.jpg);
+  height: 472px;
+}
+
+/* hit 46 right 7 up */
+
+.offer-bundle {
+  display: flex;
+  flex-direction: column;
+}
+/* 192px desktop */
+/* 236px tablet & mobile */
+/*  */

@@ -1,0 +1,10 @@
+@import url(catalogue/catalogue.css);
+@import url(offer/offer.css);
+
+.main__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 118px;
+  padding-bottom: 62px;
+}

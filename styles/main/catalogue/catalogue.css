@@ -1,0 +1,21 @@
+.catalogue-caption {
+  margin-bottom: 40px;
+}
+
+.catalogue-caption__header {
+  text-align: center;
+}
+
+.catalogue-caption__sort-info {
+  text-align: center;
+}
+
+.catalogue-caption__sort-field {
+  font-style: italic;
+}
+
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

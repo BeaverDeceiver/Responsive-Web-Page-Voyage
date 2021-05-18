@@ -17,3 +17,10 @@
     padding-bottom: 62px;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .main__inner-container {
+    padding-top: 33px;
+    padding-bottom: 31px;
+  }
+}

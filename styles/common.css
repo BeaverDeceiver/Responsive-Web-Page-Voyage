@@ -42,6 +42,14 @@
   }
 }
 
+@media screen and (max-width: 740px) {
+  .header_1 {
+    letter-spacing: 1px;
+
+    font-size: 20px;
+  }
+}
+
 .header_2 {
   letter-spacing: 1px;
 

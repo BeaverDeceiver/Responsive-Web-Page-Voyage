@@ -12,9 +12,9 @@
 }
 
 .offer__caption {
-  padding: 20px 35px 88px;
-  /* padding-left: 35px;
-  padding-right: 35px; */
+  padding-top: 20px;
+  padding-left: 35px;
+  margin-bottom: 6px;
 }
 
 .offer__route {
@@ -29,7 +29,7 @@
 }
 
 .offer__price {
-  position: absolute;
+  position: relative;
   letter-spacing: 2px;
 
   color: #0d3351;
@@ -39,7 +39,6 @@
   font-weight: 400;
   line-height: 48px;
   padding-left: 35px;
-  padding-right: 35px;
   padding-bottom: 34px;
   bottom: 0px;
 }
@@ -122,13 +121,6 @@
 
   background: center/cover no-repeat url(../../../assets/offers/offer_5.jpg);
 }
-/* hit 46 right 7 up */
-
-/* 192px desktop */
-/* 236px tablet & mobile */
-/*  */
-
-/* .offer */
 
 @media screen and (min-width: 1300px) {
   .offer_1 {
@@ -168,6 +160,10 @@
     grid-row: 3 / 5;
     -ms-grid-row-span: 2;
   }
+
+  .offer__price {
+    padding-right: 35px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -205,5 +201,64 @@
 
   .offer_5 {
     display: none;
+  }
+  .offer__tag {
+    position: relative;
+    top: -7px;
+    left: calc(100% - 89px - 32px);
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .offer_1 .offer__image {
+    height: 228px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_1-mobile.jpg);
+  }
+
+  .offer_2 .offer__image {
+    height: 228px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_2-mobile.jpg);
+  }
+
+  .offer_3 .offer__image {
+    height: 228px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_3-mobile.jpg);
+  }
+
+  .offer_4 .offer__image {
+    height: 228px;
+
+    background: center/cover no-repeat
+      url(../../../assets/offers/offer_4-mobile.jpg);
+  }
+
+  .offer_5 {
+    display: none;
+  }
+
+  .offer,
+  .offer:nth-child(2n) {
+    grid-column: 1;
+  }
+
+  .offer__caption,
+  .offer__price {
+    padding-left: 22px;
+  }
+
+  .offer__price {
+    letter-spacing: 1px;
+  }
+
+  .offer__tag {
+    position: relative;
+    top: -7px;
+    left: calc(100% - 89px - 23px);
   }
 }

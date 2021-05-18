@@ -18,6 +18,10 @@
   font-weight: 400;
 }
 
+.text_strong {
+  font-weight: bold;
+}
+
 .header_1 {
   letter-spacing: 2px;
 

@@ -21,11 +21,21 @@
 
 .drop-menu__content-container {
   min-width: 420px;
-  height: 413px;
+  max-width: 100%;
+  min-height: 413px;
   background-color: #0d3351;
   display: none;
   position: absolute;
   z-index: 1;
+}
+
+@media screen and (max-width: 740px) {
+  .drop-menu {
+    width: 100%;
+  }
+  .drop-menu__content-container {
+    min-width: 220px;
+  }
 }
 
 .drop-menu:hover .drop-menu__content-container {
@@ -36,6 +46,7 @@
   padding-top: 51px;
   padding-left: 44px;
   padding-bottom: 76px;
+  padding-right: 20px;
 }
 
 .drop-menu__list-item {

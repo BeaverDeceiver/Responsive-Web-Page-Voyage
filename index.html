@@ -419,6 +419,20 @@
 
   </section>
 
+  <script>
+    let links = document.getElementsByClassName("offer__title");
+    for (let index = 0; index < links.length; index++) {
+      links[index].addEventListener("click", () => {
+        document.getElementsByClassName("card")[0].style.display = "block";
+        document.getElementsByClassName("card__background-dim")[0].style.display = "block";
+      });
+    }
+    document.getElementsByClassName("card__icon-x")[0].addEventListener("click", () => {
+      document.getElementsByClassName("card")[0].style.display = "none";
+      document.getElementsByClassName("card__background-dim")[0].style.display = "none";
+    });
+  </script>
+
 </body>
 
 </html>

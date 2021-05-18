@@ -2,7 +2,7 @@
 @import url(./text-container/text-container.css);
 
 .card {
-  /* display: none; */
+  display: none;
   position: fixed;
   top: 10%;
   z-index: 1;
@@ -11,6 +11,7 @@
 }
 
 .card__background-dim {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;

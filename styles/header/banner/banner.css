@@ -47,10 +47,6 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .banner {
-    margin-bottom: 208px;
-  }
-
   .banner__text {
     padding-bottom: 14px;
 
@@ -61,8 +57,9 @@
     color: #0d3351;
 
     font-size: 72px;
-    line-height: 72px;
+    line-height: 1em;
   }
+
   .banner__text_first-line {
     padding-bottom: 0;
 
@@ -77,6 +74,39 @@
   .banner__line {
     top: 366px;
 
+    height: 238px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .banner__text {
+    padding-bottom: 34px;
+
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+    color: #0d3351;
+
+    font-size: 50px;
+    line-height: 1em;
+  }
+
+  .banner__text_first-line {
+    padding-bottom: 0;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: none;
+
+    font-size: 20px;
+    line-height: 1em;
+  }
+
+  .banner__line {
+    top: 412px;
+
+    /* width: 44px; */
     height: 238px;
   }
 }

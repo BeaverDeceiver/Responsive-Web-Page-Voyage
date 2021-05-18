@@ -1,0 +1,29 @@
+.card__text-container {
+  flex: 1;
+}
+
+.text-container__header {
+  margin-bottom: 36px;
+}
+
+.text-container__text {
+  line-height: 24px;
+}
+
+.text-container__time-text {
+  margin-bottom: 6px;
+}
+
+.text-container__schedule-text {
+  margin-bottom: 15px;
+}
+
+.text-container__price {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 48px;
+}
+
+.text-container__button {
+  margin-top: 10px;
+}

@@ -24,3 +24,25 @@
 .copyright-info__support-text {
   font-size: 10px;
 }
+
+@media screen and (max-width: 740px) {
+  .copyright-info__text-container {
+    display: block;
+  }
+
+  .copyright-info__phonenumber {
+    text-align: center;
+    line-height: 48px;
+  }
+
+  .copyright-info__support-text {
+    font-size: 10px;
+    text-align: center;
+    line-height: 1em;
+  }
+
+  .copyright-info__copyright-text {
+    text-align: center;
+    padding-top: 16px;
+  }
+}

@@ -4,6 +4,7 @@
 @import url(./header/header.css);
 @import url(./footer/footer.css);
 @import url(./main/main.css);
+@import url(./card/card.css);
 
 body {
   background-color: #f3f3f3;
@@ -23,7 +24,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
   .container {
     width: 290px;
     margin: 0 auto;

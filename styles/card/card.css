@@ -1,0 +1,68 @@
+@import url(./image-container/image-container.css);
+@import url(./text-container/text-container.css);
+
+.card {
+  display: none;
+  position: fixed;
+  top: 10%;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+.card__background-dim {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* desktop */
+.card__inner-container {
+  min-height: 691px;
+  width: 850px;
+  background-color: #ffffff;
+  margin: 0% auto;
+}
+
+/* tablet  */
+@media screen and (max-width: 1300px) {
+  .card__inner-container {
+    width: 721px;
+  }
+
+  .card__content-container {
+    padding-top: 97px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 74px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .card {
+    display: none;
+  }
+}
+
+.card__content-container {
+  padding-top: 118px;
+  padding-bottom: 86px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+}
+
+.card__icon-x {
+  display: block;
+  position: relative;
+  top: 23px;
+  left: calc(100% - 25px - 15px);
+  width: 15px;
+  height: 17px;
+  background: no-repeat center url(../../assets/card/x.png);
+}

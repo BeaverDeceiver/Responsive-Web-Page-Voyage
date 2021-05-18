@@ -10,6 +10,16 @@
   right: 0;
 }
 
+.card__background-dim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* desktop */
 .card__inner-container {
   min-height: 691px;

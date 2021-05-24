@@ -238,4 +238,7 @@
   .offer__image {
     width: 290px;
   }
+  .offer__title {
+    pointer-events: none;
+  }
 }
